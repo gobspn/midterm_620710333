@@ -136,11 +136,9 @@ class Pig_weight extends StatelessWidget {
                             title: const Text("ERROR"),
                             content: const Text("Invalid input"),
                             actions: [
-                              // ปุ่ม OK ใน dialog
                               TextButton(
                                 child: const Text('OK'),
                                 onPressed: () {
-                                  // ปิด dialog
                                   Navigator.of(context).pop();
                                 },
                               ),
@@ -173,11 +171,9 @@ class Pig_weight extends StatelessWidget {
                             content: Text(
                                 'Weight: ${weight_min_Tol.round()} - ${weight_max_Tol.round()} kg\nPrice: ${price_min_Tol.round()} - ${price_max_Tol.round()} Baht'),
                             actions: [
-                              // ปุ่ม OK ใน dialog
                               TextButton(
                                 child: const Text('OK'),
                                 onPressed: () {
-                                  // ปิด dialog
                                   Navigator.of(context).pop();
                                 },
                               ),
